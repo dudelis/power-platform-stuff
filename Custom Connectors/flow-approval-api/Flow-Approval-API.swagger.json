@@ -1,0 +1,322 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Default title",
+    "description": "",
+    "version": "1.0"
+  },
+  "host": "api.flow.microsoft.com",
+  "basePath": "/providers/Microsoft.ProcessSimple",
+  "schemes": ["https"],
+  "consumes": [],
+  "produces": [],
+  "paths": {
+    "/environments/{environmentID}/approvals/{approvalId}/approvalRequests": {
+      "get": {
+        "description": "Get Approval Details",
+        "operationId": "getApprovalDetails",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "environmentID",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "path",
+            "name": "approvalId",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "api-version",
+            "required": true,
+            "type": "string",
+            "default": "2016-11-01"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "default",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Approval"
+              }
+            }
+          }
+        },
+        "summary": "GetApprovalDetails"
+      }
+    },
+    "/environments/{environmentID}/approvals/{approvalId}/approvalRequests/{approvalRequestId}/reassign": {
+      "post": {
+        "description": "Reassign",
+        "operationId": "reassignApproval",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "environmentID",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "path",
+            "name": "approvalId",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "path",
+            "name": "approvalRequestId",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "api-version",
+            "required": true,
+            "type": "string",
+            "default": "2016-11-01"
+          },
+          {
+            "in": "body",
+            "name": "response",
+            "description": "response",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "assignedTo": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "default",
+            "schema": {
+              "$ref": "#/definitions/ApprovalResponse"
+            }
+          },
+          "400": {
+            "description": "Error",
+            "schema": {
+              "$ref": "#/definitions/ErrorObject"
+            }
+          }
+        },
+        "summary": "ReassignApproval"
+      }
+    },
+    "/environments/{environmentID}/approvals/{approvalId}/approvalResponses": {
+      "post": {
+        "description": "Complete Approval",
+        "operationId": "completeApproval",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "environmentID",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "path",
+            "name": "approvalId",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "api-version",
+            "required": true,
+            "type": "string",
+            "default": "2016-11-01"
+          },
+          {
+            "in": "body",
+            "name": "response",
+            "description": "response",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "properties": {
+                  "type": "object",
+                  "properties": {
+                    "comments": {
+                      "type": "string"
+                    },
+                    "response": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "default",
+            "schema": {
+              "$ref": "#/definitions/ApprovalResponse"
+            }
+          },
+          "400": {
+            "description": "Error",
+            "schema": {
+              "$ref": "#/definitions/ErrorObject"
+            }
+          }
+        },
+        "summary": "CompleteApproval"
+      }
+    }
+  },
+  "definitions": {
+    "ApprovalResponse": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "comments": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "response": {
+              "type": "string"
+            },
+            "stage": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "owner": {
+              "$ref": "#/definitions/IdentityObject"
+            }
+          }
+        }
+      }
+    },
+    "Approval": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "allowReassignment": {
+              "type": "boolean"
+            },
+            "assignedTo": {
+              "$ref": "#/definitions/IdentityObject"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "dueDate": {
+              "type": "string"
+            },
+            "expirationDate": {
+              "type": "string"
+            },
+            "isReassigned": {
+              "type": "boolean"
+            },
+            "lastNotificationDate": {
+              "type": "string"
+            },
+            "notificationFrequency": {
+              "type": "number"
+            },
+            "responseOptions": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "responseOptionsType": {
+              "type": "string"
+            },
+            "stage": {
+              "type": "string"
+            },
+            "stepNumber": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "IdentityObject": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "tenantId": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      }
+    },
+    "ErrorObject": {
+      "type": "object",
+      "properties": {
+        "error": {
+          "type": "object",
+          "properties": {
+            "code": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "parameters": {},
+  "responses": {},
+  "securityDefinitions": {
+    "oauth2-auth": {
+      "type": "oauth2",
+      "flow": "accessCode",
+      "tokenUrl": "https://login.windows.net/common/oauth2/authorize",
+      "scopes": {},
+      "authorizationUrl": "https://login.microsoftonline.com/common/oauth2/authorize"
+    }
+  },
+  "security": [
+    {
+      "oauth2-auth": []
+    }
+  ],
+  "tags": []
+}
