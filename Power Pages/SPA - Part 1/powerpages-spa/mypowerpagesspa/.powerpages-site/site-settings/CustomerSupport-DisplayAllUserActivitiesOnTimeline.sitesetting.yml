@@ -1,0 +1,4 @@
+description: Enabling this setting will show all customer activity on the portal timeline.
+id: 78f92a7f-fc9b-43cf-a02b-86eb2df7ec5a
+name: CustomerSupport/DisplayAllUserActivitiesOnTimeline
+value: false

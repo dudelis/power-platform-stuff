@@ -1,0 +1,4 @@
+description: Set whether the header web template is output cached.
+id: ffea46c1-6783-4aaa-ac42-a67b9525b706
+name: Header/OutputCache/Enabled
+value: True

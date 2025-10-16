@@ -1,0 +1,4 @@
+description: Site setting that controls the depth of the webpage hierarchy that’s cloned in a newly-added supported language. Web link sets and content snippets are cloned in the newly-added language when webpages are cloned.
+id: 0136d858-de8b-4de8-9907-e83fc48aa2ce
+name: MultiLanguage/MaximumDepthToClone
+value: 3
