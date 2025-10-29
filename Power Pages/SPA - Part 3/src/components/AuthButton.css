@@ -1,0 +1,98 @@
+.auth-button-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.auth-user-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.welcome-text {
+  font-size: 0.9rem;
+  color: #e0e0e0;
+  font-weight: 500;
+}
+
+.auth-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(135deg, #646cff 0%, #747bff 100%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.auth-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #747bff 0%, #646cff 100%);
+}
+
+.auth-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-button {
+  background: linear-gradient(135deg, #4caf50 0%, #45a049 100%);
+}
+
+.login-button:hover {
+  background: linear-gradient(135deg, #45a049 0%, #4caf50 100%);
+}
+
+.logout-button {
+  background: linear-gradient(135deg, #f44336 0%, #d32f2f 100%);
+}
+
+.logout-button:hover {
+  background: linear-gradient(135deg, #d32f2f 0%, #f44336 100%);
+}
+
+.button-text {
+  font-family: inherit;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .auth-button-container {
+    gap: 0.5rem;
+  }
+
+  .auth-user-section {
+    gap: 0.5rem;
+  }
+
+  .welcome-text {
+    font-size: 0.8rem;
+    display: none; /* Hide welcome text on mobile for space */
+  }
+
+  .auth-button {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .button-text {
+    display: none; /* Show only icons on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .auth-button {
+    padding: 0.5rem;
+    min-width: 40px;
+    justify-content: center;
+  }
+}
