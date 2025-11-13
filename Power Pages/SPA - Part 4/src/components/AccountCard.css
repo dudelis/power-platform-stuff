@@ -1,0 +1,122 @@
+.accounts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.account-card {
+  background: #1f1f1f;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  padding: 1rem 1.1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: border-color 0.25s ease, transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.account-card:hover {
+  border-color: #646cff;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+}
+
+.account-card-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.account-name {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.account-location {
+  font-size: 0.7rem;
+  padding: 0.25rem 0.5rem;
+  background: #2a2a2a;
+  border-radius: 4px;
+  color: #b5b5b5;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.account-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.account-description {
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.2rem;
+  color: #d0d0d0;
+  max-height: 4.2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.account-meta {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.7rem;
+}
+
+.account-meta li {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.account-meta a {
+  color: #8fa8ff;
+  text-decoration: none;
+  max-width: 170px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.account-meta a:hover {
+  text-decoration: underline;
+}
+
+.meta-label {
+  font-weight: 500;
+  color: #b5b5b5;
+}
+
+.account-id {
+  font-size: 0.65rem;
+  background: #2a2a2a;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  color: #c8c8c8;
+}
+
+@media (max-width: 600px) {
+  .accounts-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 420px) {
+  .accounts-grid {
+    grid-template-columns: 1fr;
+  }
+}
