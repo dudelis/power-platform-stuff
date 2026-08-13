@@ -1,0 +1,1583 @@
+"AppId","DisplayName","EnvironmentId","IsSharePointFormApp","Status","Detail"
+"00a138b2-7a9d-44b4-895c-1b1b6b8ebf48","Car Rating App","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"0170255d-3dd6-4025-99c4-498be934bb53","AAW_test App","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"0590c1d2-de1c-479b-a967-a4f8a1104d68","Test App","31eff1f7-bbd3-e985-bade-2ff7db34d353",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.6.46:23022/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 660e15a6-3cd6-490f-bfc5-7e19907968db"
+"06201c56-2033-4ac2-a67a-78fba904f278","Custom App","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"0646fb67-a8d9-4474-8d14-4fb443e5bb24","Testliste auf PPUser10 Forms","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"06cd3398-9d9b-46ea-ac96-a6883ccd1170","z[deprecated] Power Platform Training Management","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"082eb7fb-05cf-41bb-803f-69c76c282eb6","z[deprecated] Maker - Command Center","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"08dcc41d-3b82-43ac-945c-e9e58ac3b7ef","Admin - Access this Flow","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"08e0dd24-aaa1-4783-b6f3-7b49bc6936e7","DLP Editor V2","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"0aea9c86-56bf-4935-a219-466a3ec753f0","Set Flow Permissions","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"0dc456bd-2c7b-48e9-9140-2b6a14ddc828","Device Ordering App_WS20210407_new","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"0e118b16-b976-49d9-ae74-962d18ff60a9","PPforAdmins Workshop App","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"0fcf5579-9e50-4355-82ba-d66a199d5390","List SHarePoint SItest","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"106fcc9d-a436-4256-97a9-9e8fcdd59297","Innovation Backlog","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"11d4c78e-b335-4e57-9060-0e666fbd5271","Power Apps Training for Office_1423","f0c1817c-eed6-edee-9857-661c7b8d6e0e",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.8.12:21677/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 9f26b3d0-9018-4cb2-98fc-f8f04a7a70ba"
+"13b1e212-b632-4cb5-900b-f7c71c5e3c39","App and Flow Inactivity Notifications Clean Up View","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"1457e62c-2f08-446f-9b7d-9698ff6b7778","Dummy for connector","7edee57a-8151-e291-9c30-d0418c88af4d",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.8.10:22554/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: ce39596c-b873-4fd4-bed0-280a98886b76"
+"15b261b3-0716-49aa-b839-2f00c77d0552","DemoList on Developer forms","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"173559c1-df58-47f8-80c4-61399df94854","Innovation Backlog Admin","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"19138f10-3355-4d6c-9139-6baca4ef6814","Empty App","602ccc5b-01e3-e17d-8ee4-585127be2e4d",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.5.35:23442/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: ae93d227-6552-46ae-a0f1-3d1f7833e1c8"
+"1de41697-669b-4271-81e2-e6312ce70037","New App","602ccc5b-01e3-e17d-8ee4-585127be2e4d",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.5.22:20328/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: a6b6c47c-ddf9-4112-bc05-0899b63e392e"
+"1e79e28f-1adf-4361-b836-cde83769fddc","Test App","602ccc5b-01e3-e17d-8ee4-585127be2e4d",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.6.17:22077/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 042c2c56-cfe3-47de-af6d-3c61dbfd28cd"
+"20789c5a-386c-4cd4-90b9-958bb6c997d9","PowerBIINtegration_CreatedFromPowerBI","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"22405dd9-ebbc-412a-9be9-4c5503724abd","Device Orders","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"246777f8-479c-4d65-92a2-ddffbe0e5190","Issue tracker on FlowTraining forms","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"24a2bed2-57aa-483f-9f1d-e02a7b071a17","Shared Component Library","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"265229e0-702e-4e49-9fe6-d236159d002d","Meeting Capture_1233","f8566649-1464-e07e-b2e3-ec6d493cbf55",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.6.44:26413/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 257ea8c6-4053-433b-81af-34eda94962e9"
+"26fda76f-eaf4-469a-98b5-788522b1c30e","ALM Accelerator Admin Configuration","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"2703ab8d-f1c1-451f-8a64-094abef009cd","My Expenses_1554","ebddc924-b53a-e078-b44c-06a38d40c249",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.5.7:23362/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 5bc6e112-469c-4c81-8a2a-0b6d029d2122"
+"272c8f7d-6373-46c9-bfdf-c73b8e465e8e","Cleanup Old Objects App","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"29e330c9-b657-4fc8-97cc-cf0f3f313648","DownloadApp","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"2eaafd85-01ab-4d0b-8a27-48d360227c96","TL Order Data","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"30034457-bc92-468d-9507-9a54f9595624","ALM Accelerator for Power Platform1","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"302ee7ef-b4d2-4ca0-b1e8-825f829d9ebf","SharePoint Car List - Power Apps Workshop","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"3119d6fe-7d05-4902-80ca-6621b5fcd8c7","PowerAppsList on Developer forms","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"3161e940-2636-40e9-ae2b-89c2f9b2ef9d","Device Ordering 20211123 FK","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"350c2336-13a1-4d4f-a21b-ff6c5fe2f3a0","Power Apps Training for Office_0834","dad08710-1a0a-edc0-80f6-21cd2389744f",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.6.14:27778/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 54a8a334-5608-4377-9976-585237b4c3ce"
+"355b0007-94ae-428b-9175-9b62fba7acae","CoE Theme Gallery","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"3610924d-0f0f-4b2f-86cc-6f97e9ad730f","TestApp","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"387f16e0-3605-4285-949c-52121a2b2ea3","Admin - Access this App [works embedded in Power BI only]","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"39d7f598-a2d1-406c-8bdb-29499d267bd8","App and Flow Inactivity Notifications Clean Up View","9cd45efe-96c0-e639-8db8-5737ab128f55",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.6.19:29986/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: b9c8025a-0f4a-4985-9b93-c497bd8420ec"
+"3b5c24c3-fb8a-4640-9269-f41091f70e5b","My Expenses_1554","3bdf77d1-9183-e5c7-9641-71551fc80b53",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.5.61:26162/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 280623f0-71d4-4352-bf02-9e9be2d5e123"
+"3d407202-b041-47a3-ac75-279289470024","Create Attachments in SP","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"3ef7fbec-545a-4d50-ac01-551196054dcc","Admin - Access this App","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"43255b89-a005-4abd-811a-0101946928b1","Device Ordering App - WS","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"493fc536-f6b6-4ff5-8894-5492a95a8270","File Download","602ccc5b-01e3-e17d-8ee4-585127be2e4d",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.5.53:26219/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 7498511f-2bce-48b0-97a8-ec5a0dd9554f"
+"4ad64994-59ac-4399-a524-6d79eb466dd5","My Expenses_1554","602ccc5b-01e3-e17d-8ee4-585127be2e4d",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.8.15:20817/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: d2b8651a-9b48-4665-a294-3f97e7af861b"
+"4b989c49-2599-478d-9072-7ab4ddce3dcf","App with Premium connectors","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"4badd8aa-8bec-4c1b-8466-d7c72c315424","Device Ordering App","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"4e098bd9-e973-49da-8daa-30ddcaa13290","z[deprecated] Admin - Command Center","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"4ee06c67-6ac9-4e56-8773-12567b48848b","CoE Theme Editor","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"4f5ef63f-946b-4b0e-a152-6532f4501926","Device Ordering App","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"5013de85-2c46-49f4-ab97-8a2795919983","Admin - Environment Request","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"5054d093-db5c-4ce3-8aee-cadc5e6d335e","My Expenses_1554","211dc4d2-11be-e1c2-9f92-ab2e79924848",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.8.6:20803/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: a62af7e0-d9f2-452d-aad1-0b36babcc5e2"
+"50c61d1f-1458-42f3-93dc-f405d7031796","CostCenters on Communication site forms","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"5a7025b6-1118-4d61-840c-288b541452e7","Test App","49e815e8-358d-e373-aa62-7c6c04642245",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.6.56:26197/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 9afa7170-164a-49ec-bca3-d9817ae8d042"
+"5b729ed9-7722-4157-b285-6840751a4dde","PowerBITestApp","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"5c6af5a1-46e8-422a-94a7-24f6736a5de1","Device Orders’","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"634f1651-1d5f-4bbb-86c4-1008b2e2b049","Cleanup Old Objects App","9cd45efe-96c0-e639-8db8-5737ab128f55",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.5.9:21007/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 598488c9-1d34-4ef1-b6fc-9aaf0e420bca"
+"63842bcd-4f12-42d4-b8b1-e7b38b9f8984","Test 123","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"6507c0d2-06f5-4cbf-b3bf-d60c8e8904a8","AppTemplatePhone","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"6543fe90-f05d-483b-b1f6-0c0682e393e1","Screen sizes","602ccc5b-01e3-e17d-8ee4-585127be2e4d",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.6.47:27339/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 1ef6c386-5253-4115-ba49-d8c8dfb38873"
+"69dd7b9c-100d-4387-bd4a-9a7d9714ab22","ALM Accelerator for Makers","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"6e740fb0-e33d-45f5-b365-827e7f0c69e9","My Expenses_1554","35e9cbea-d2a8-e8ee-bda2-0817b6ef1457",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.5.20:21443/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: a1e5f824-0797-4f0d-9f71-6d732c62b41e"
+"6fc0f684-12be-4331-9d47-afb153cac0c4","Exemption Request - Admin","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"70c66c68-6eab-46fc-b847-7c9a57e4f926","App Catalog","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"76180ec4-ff95-4f80-917c-be6e602094ee","PowerFXDemo","dad08710-1a0a-edc0-80f6-21cd2389744f",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.5.48:20421/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 6049d564-a74b-4edd-8522-5b2617a3b753"
+"76a4344e-66e6-44cf-9c61-4057e4d6c756","Test App123","7edee57a-8151-e291-9c30-d0418c88af4d",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.8.9:20702/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 78852b97-7a70-4d67-ad29-f9e7e2f051dd"
+"77bd5e8e-023b-44f7-b31f-846a908464b4","Expense Manager","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"798725d5-4edc-4d7b-8743-f29121903f4d","Device Ordering App","602ccc5b-01e3-e17d-8ee4-585127be2e4d",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.6.25:27213/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 2001fef0-2862-46d6-bf70-922d158e30c2"
+"7e4b7bb5-9976-4aa8-b210-7c998d60f160","Test App","7edee57a-8151-e291-9c30-d0418c88af4d",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.5.38:22719/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 4c9e2903-3a06-4027-9475-b36b6b6be78d"
+"8363ae9e-2b22-474e-b011-80ce775eb1b9","Theme Template Demo - copy","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"84b5d360-65f3-40dd-bb45-a5bcc716076e","CarsList on FK forms","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"87760bea-6316-4112-b692-d9f9f502ed7c","Device Ordering App_WS20210407","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"8bcf5f81-fae7-460c-a374-51459a381d79","Exemption Request","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"8ca5f956-a9a9-4f1b-b408-2ca6d7240562","Leave Request","f0c1817c-eed6-edee-9857-661c7b8d6e0e",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.5.37:22240/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 6d318c4b-82cf-4cee-9fbd-52ba79e2a71e"
+"8cef41de-09bd-49dd-8441-0de9c90fc024","Test App","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"8e7659e4-8c6c-4ce9-b3ac-8e0e667482c3","SP Site Inspection","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"904828e7-cf58-40a9-b320-fa1209397404","Admin - Access this App [works embedded in Power BI only]","9cd45efe-96c0-e639-8db8-5737ab128f55",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.5.63:20682/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 377061c4-6380-4b28-b428-75214a4764bc"
+"911b33c8-7087-433a-9bab-2fdcbe575606","App123","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"92fb1106-7185-4dd3-8f0e-c4ac7d68df9f","z[deprecated] Template Catalog","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"948a4d48-c852-4844-840f-c7d96fe7d953","Device Ordering App_FK","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"975e8ddb-2d3a-41bb-8587-a79adab27397","PowerBITest","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"977afab8-8e82-43a1-b460-7fddc8eac02e","Power Apps Training_1027","602ccc5b-01e3-e17d-8ee4-585127be2e4d",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.6.4:26988/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 957a449a-0fab-4b25-a5b2-0776f4408049"
+"9ae82568-e627-4ac1-ace5-ecea71a5825b","Orders on FlowTraining forms","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"9b64d3d3-fa6f-4e89-9d59-144d08657136","Validation Station","f8566649-1464-e07e-b2e3-ec6d493cbf55",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.6.54:27736/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 25f31cc0-2adb-4a32-99a5-83b531a096c0"
+"9e42c0b4-6f70-4c0d-a856-bff3538181c3","AppTemplateTablet","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"9f91877f-b0db-4710-9a3c-1bb7623627b4","Theme Template Demo","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"a159beaa-470b-4652-90f6-d06654d493a7","DownloadApp","ebddc924-b53a-e078-b44c-06a38d40c249",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.5.23:20599/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 36c7f857-32b9-4501-9eb4-4ed298746860"
+"a6b5c11e-2602-47b6-b08a-8e087c060f2f","ALM Accelerator for Power Platform","602ccc5b-01e3-e17d-8ee4-585127be2e4d",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.6.28:24291/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: f5c78d08-b21a-4fd9-b161-f84b571bd0b8"
+"ab003002-043f-4fa1-a6f8-4f0a365d987d","Test Connection reference","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"ae8d759e-4829-450b-96dd-8399a7003953","Devices App","602ccc5b-01e3-e17d-8ee4-585127be2e4d",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.5.55:20724/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: c47f4245-a809-4b0b-8fc1-f62f3c1df76e"
+"aed34dd5-fcc6-4634-85bb-7dbc630338c7","Meeting Capture_1233 - copy","f8566649-1464-e07e-b2e3-ec6d493cbf55",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.8.5:20476/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 63151dab-1858-42da-a94e-47929ad4b1ce"
+"af4ac3c7-702f-4ba9-83cc-e6fb508c5e32","Device Orders","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"b3fa17e9-b3f2-4ee1-9651-144bd3762b58","Admin - Access this Flow","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"b8676139-28e1-47c1-93d5-067bf257de16","App in the environment","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"b95a4356-4c5c-4050-9d78-db4b405ee619","Test Launch","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"ba601864-aeaf-455f-bf1d-a11318c8a8e1","Device Orders on PowerApps forms","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"bb7eaaf9-4a13-4efe-b396-a1d47dfbb090","CarsList on Power Automate WS forms","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"c9b90012-298c-481e-b0c1-30bf79b296db","Onboarding Buddy","602ccc5b-01e3-e17d-8ee4-585127be2e4d",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.6.54:27736/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 395ec7c7-9ea2-4902-9a49-4bdea1cd55a5"
+"cac772eb-53d2-44ff-bef5-7e116007465e","Video hub","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"cc2acef5-50ee-451a-bfab-bd2534d4613d","CarsList on FlowTraining forms","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"ce504682-ac1a-4085-87ef-b7da5a22bf3d","Admin - Access this App","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"ceb35eae-5346-4ce5-ab99-ed5aa5380dac","Validation Station","602ccc5b-01e3-e17d-8ee4-585127be2e4d",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.8.14:21209/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 290b6fa5-2651-4eea-aa23-febb06104f94"
+"cf56ecd1-837b-44f9-9d3f-17fdc87d53c6","CarsList on FlowTrainingFK forms","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"d07df52b-51ca-46b7-89ae-9aecb2aad69d","Exemption Requests","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"d09bc955-9f39-4648-9fa7-5f96931f922e","z[deprecated] Maker Assessment","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"d3200553-fdd8-4ee3-a731-4f5168527462","z[deprecated] Power Platform Training Registration","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"d6295c67-c0d8-497a-8251-cadeb506dc04","Health Check","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"d91c707a-2468-4a10-9e1d-e7c261d071fa","Crisis Communication","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"d9788dd5-45e5-43d0-9d80-eb1666283606","Device Orders_Sheryl","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"db8ad19c-f735-4774-9f4f-21bbf8a8bb70","Test","7edee57a-8151-e291-9c30-d0418c88af4d",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.5.15:21351/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 73451f13-f145-43e9-958a-fcb554cd177d"
+"dc112db1-4513-422e-af6f-e44a8befd585","Admin - Access this Flow [works embedded in Power BI only]","9cd45efe-96c0-e639-8db8-5737ab128f55",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.6.62:21341/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 97a08084-7d1f-4783-a72f-6bf09c9709a6"
+"ddce8c79-c30d-47bb-af30-3c236d1f9464","App","f0c1817c-eed6-edee-9857-661c7b8d6e0e",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.5.9:21007/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 2647a791-d9b2-4e56-a19f-6ec8b52525e4"
+"de9aafe7-eee5-486c-9d69-20fedf523d30","Flight List on Flight Admin forms","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"e0388dee-361a-436a-9037-597e54da56b8","z[deprecated] Maker Assessment Admin App","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"e6b59241-9d77-40d8-800d-272f630185de","PowerBIIntegrationTest","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"e6d7a051-2278-4d33-bd7a-df419ca43ae8","Video hub (deprecated)","9cd45efe-96c0-e639-8db8-5737ab128f55",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.5.33:20477/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: c15ad706-c671-4206-9f2f-034fb10a4510"
+"e83600f8-c80f-4e1a-8af5-abd780ce8684","Admin - Access this Flow [works embedded in Power BI only]","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"ea3d4b9f-1c7a-43dc-ae74-a40056e2beb6","Maker - Environment Request","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"ead30724-89ff-4465-9775-9e41be268f51","Test Responsiveness","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"ee309db7-b19b-447a-9ea8-e67aae0fe888","EasyGroups","9cd45efe-96c0-e639-8db8-5737ab128f55",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.5.37:22240/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 8d326478-85d6-4121-b5fe-d13883639017"
+"ee4095cd-3e52-46f7-aea5-7f0b100ed816","Test App 2023","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"ef225f32-f70e-4f47-8f04-d5f85e68eee6","SP Inspection","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"f1bd462d-30a5-4509-a55f-1a3fc444a6ff","Set App Permissions","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"f5eb2a07-99cd-473b-b103-6b6d040ce47e","Test App Environment","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"f7b57271-176b-4c89-8e58-04aef556b22d","SeitenVorlage on Communication site forms","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"f8380b70-7f20-45f1-9cd3-5baf1d0dd167","HeaderParam","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"f9699fb6-c293-476b-8149-009660aa5b01","Device Orders_FK2023","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"
+"faa7ce7a-658e-4655-aa4e-27a30c226bcf","Meals Protocol","602ccc5b-01e3-e17d-8ee4-585127be2e4d",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.5.36:20536/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 0d3e4a08-53a8-4da5-81be-348f17d8ce53"
+"fbd9158e-8687-40b3-bd32-c7f0d24f0329","Group Management App","602ccc5b-01e3-e17d-8ee4-585127be2e4d",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.5.41:24633/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 66216b1e-7286-42fd-9dc5-036d54086a37"
+"fe8fd2f8-293e-448b-9f10-dcfbf422618d","App","f8566649-1464-e07e-b2e3-ec6d493cbf55",,"AccessDenied","Connected as 320e0933-30e3-4ee4-9390-d4186139837a
+Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: The service principal with id 'd76c1a19-a8c9-4771-8855-b0de0c05d87a' for application 320e0933-30e3-4ee4-9390-d4186139837a does not have permission to access the path 'https://10.0.5.13:20497/providers/Microsoft.BusinessAppPlatform/scopes/admin/environments?`$expand=permissions&api-version=2021-04-01' in tenant 1e7886bb-4ad8-4924-b559-29c5f5fea8f5. [HTTP 403 (Forbidden)] Correlation ID: 7bf2b4e9-35ec-446f-beed-18f67e5055b5"
+"ff5aaff0-c8c0-4b73-b119-079fc2f496ec","CarsList on PPUser1 forms","Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5",,"Error","Microsoft PowerPlatform CLI
+Version: 2.9.3+ga17df1d (.NET Framework 4.8.9337.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Invalid value for argument 'Default-1e7886bb-4ad8-4924-b559-29c5f5fea8f5'. Text matching is not supported by this verb. Please specify a GUID or absolute https Url. For example: 'https://contoso.crm.dynamics.com'
+
+Usage: pac canvas download [--environment] --name [--file-name] [--extract-to-directory] [--overwrite]
+
+  --environment               Specifies the target Dataverse. The value may be a Guid or absolute https URL. When not specified, the active organization selected for the current auth profile will be used. (alias: -env)
+  --name                      Canvas app exact, partial name, or App ID (alias: -n)
+  --file-name                 File name (usually with .msapp extension). If not provided file is saved in current directory with 'appname'.msapp (alias: -f)
+  --extract-to-directory      Directory name to extract canvas app to (alias: -d)
+  --overwrite                 Allow file overwrite (alias: -o)"

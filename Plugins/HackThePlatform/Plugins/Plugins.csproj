@@ -127,6 +127,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BlockBotCreation.cs" />
+    <Compile Include="BlockCopilotHarnessAgents.cs" />
     <Compile Include="CreateBlobFolderRestPlugin .cs" />
     <Compile Include="FetchXmlToJsonPlugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
