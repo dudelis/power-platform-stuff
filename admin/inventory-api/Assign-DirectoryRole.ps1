@@ -55,11 +55,6 @@ $ErrorActionPreference = 'Stop'
 
 $requiredModules = 'Microsoft.Graph.Authentication', 'Microsoft.Graph.Applications', 'Microsoft.Graph.Identity.Governance'
 
-$alreadyLoaded = Get-Module -Name $requiredModules
-if ($alreadyLoaded) {
-    throw "Microsoft.Graph module(s) already loaded in this session with a version that may not match: $($alreadyLoaded.Name -join ', '). Multiple side-by-side versions are installed on this machine, so mixing them in one session causes assembly-load conflicts. Close this PowerShell session, open a brand-new one, and re-run this script."
-}
-
 # Pin every required module to the highest version installed for ALL of them, to avoid mixing
 # side-by-side versions in the same session (the root cause of "assembly already loaded" errors).
 $commonVersion = $null
@@ -80,10 +75,21 @@ if (-not $commonVersion -or $commonVersion.Count -eq 0) {
     throw "No single version of $($requiredModules -join ', ') is installed for all modules. Run: Install-Module Microsoft.Graph -Scope CurrentUser -Force to align versions."
 }
 $pinnedVersion = ($commonVersion | Sort-Object -Descending | Select-Object -First 1)
-Write-Host "Pinning Microsoft.Graph modules to version $pinnedVersion for this session." -ForegroundColor DarkCyan
 
+# Only (re-)import modules that aren't already loaded at the pinned version. Re-importing an
+# already-loaded module (even with -Force) can't swap out its underlying assembly, so if a
+# different version is already loaded, the session is unrecoverable and needs a restart.
 foreach ($module in $requiredModules) {
-    Import-Module -Name $module -RequiredVersion $pinnedVersion -Force
+    $loaded = Get-Module -Name $module
+    if ($loaded) {
+        if ($loaded.Version -ne $pinnedVersion) {
+            throw "Module '$module' is already loaded at version $($loaded.Version), which doesn't match the pinned version $pinnedVersion. Close this PowerShell session, open a brand-new one, and re-run this script."
+        }
+        Write-Host "$module already loaded at version $pinnedVersion - skipping import." -ForegroundColor DarkGray
+        continue
+    }
+    Write-Host "Importing $module version $pinnedVersion..." -ForegroundColor DarkCyan
+    Import-Module -Name $module -RequiredVersion $pinnedVersion
 }
 
 Write-Host "Connecting to Microsoft Graph..." -ForegroundColor Cyan

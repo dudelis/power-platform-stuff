@@ -14,9 +14,10 @@ Directory roles **can** be assigned to service principals (not just users), via 
 here: create an app registration, assign it **Global Reader** (read-only, least privilege) at tenant scope, then call
 ARG with a client-credentials token.
 
-> This exact combination (SP + directory role → ARG → `PowerPlatformResources`) isn't explicitly documented as
-> supported — steps 1-2 are solid, documented behavior; step 3 (does ARG actually authorize the app-only token for
-> this specific virtual table) is what we're validating.
+> **Confirmed working (2026-08-13).** This combination (SP + Global Reader directory role + app-only token → ARG →
+> `PowerPlatformResources`) isn't documented anywhere as an explicitly supported pattern, but it works: a service
+> principal with the Global Reader role, authenticating via client-credentials, successfully queried
+> `PowerPlatformResources` through Azure Resource Graph with no delegated/user auth involved.
 
 ## Step 1 — Create the app registration (Azure Portal, manual)
 
@@ -63,6 +64,17 @@ More sample KQL queries (counts by environment/region, connector usage, resource
 [official sample queries doc](https://learn.microsoft.com/en-us/power-platform/admin/inventory-sample-queries) — just
 pass them via `-Query`.
 
+```powershell
+# app counts by category (canvas / model-driven / code app subtype / app builder)
+# see https://learn.microsoft.com/en-us/power-platform/admin/inventory-schema for the full resource-type / field reference
+.\Invoke-PowerPlatformInventoryQuery.ps1 -TenantId '<tenant-id>' -ClientId '<client-id>' `
+    -Query 'PowerPlatformResources | where type in ("microsoft.powerapps/canvasapps","microsoft.powerapps/modeldrivenapps","microsoft.powerapps/codeapps","microsoft.powerapps/apps") | extend properties = parse_json(properties) | project displayName = tostring(properties.displayName), type, subType = tostring(properties.subType), environmentId = tostring(properties.environmentId) | summarize appCount = count() by type, subType | order by appCount desc'
+```
+
+Note: there's no dedicated resource type for SharePoint list form customizations — those are canvas apps
+(`microsoft.powerapps/canvasapps`) under the hood and aren't distinguishable from any other canvas app via the
+inventory schema.
+
 ### If it fails
 
 - **401** — token acquisition problem (bad tenant/client id, bad secret, secret expired). Not related to the
@@ -75,9 +87,43 @@ pass them via `-Query`.
 - Empty result / `count = 0` — check role propagation delay (wait 5-10 minutes and retry), and confirm the directory
   role assignment actually landed (`Get-MgServicePrincipal` + `Get-MgRoleManagementDirectoryRoleAssignment`).
 
+## Identifying SharePoint list form customizations reliably
+
+`displayName` naming patterns (like `"<List> on <Site> forms"`) are only a heuristic — they break the moment someone
+renames the app. The reliable, rename-proof signal is that every SharePoint list form customization contains a
+control named/typed **`SharePointIntegration`** in its actual app definition (see
+[Understand SharePoint forms integration](https://learn.microsoft.com/power-apps/maker/canvas-apps/sharepoint-form-integration)).
+Reading that requires downloading the app's `.msapp` package (`pac canvas download`/`unpack`), which needs access to
+the app's actual **content**, not just its inventory metadata.
+
+**CONFIRMED NOT WORKING as a service-principal-only, no-per-environment-grant approach (2026-08-13):** assigning the
+service principal the **Power Platform Administrator** Entra directory role does not grant it access to `pac canvas
+download` for apps it doesn't own. `pac canvas download` returns `403 Forbidden` on
+`Microsoft.BusinessAppPlatform/scopes/admin/environments`, even in the tenant's Default environment, even with the
+role assignment confirmed in place (ruling out propagation delay). The legacy `Microsoft.BusinessAppPlatform` admin
+API doesn't honor Entra directory roles for service principals the way the ARG `PowerPlatformResources` endpoint
+does. Getting real content-level access would require a per-environment grant (System Administrator role, or app
+ownership/sharing) or a delegated admin user session — both outside the "SP-only, no per-environment permissions"
+constraint this was trying to satisfy.
+
+**Practical approach instead:** the naming-pattern + connector heuristic from ARG inventory data alone (see the
+`bag_keys()`/connector queries above) — works today with just Global Reader, no extra permission, though it's a
+heuristic rather than a certainty.
+
+`Resolve-CanvasAppType.ps1` and `Invoke-CanvasAppTypeScan.ps1` are kept in this folder for reference (they work
+correctly as pac CLI wrappers), but don't run them expecting SP-only, zero-extra-permission results — that
+combination doesn't work against this API.
+
+The SP's **Power Platform Administrator** role was reverted back to just **Global Reader** after this was confirmed
+not to work — use `Remove-DirectoryRole.ps1` if you need to revoke an elevated role again in the future.
+
 ## Files
+
 
 | File | Purpose |
 | --- | --- |
 | `Assign-DirectoryRole.ps1` | Assigns an Entra directory role (default: Global Reader) to a service principal at tenant scope |
+| `Remove-DirectoryRole.ps1` | Removes a previously assigned Entra directory role from a service principal |
 | `Invoke-PowerPlatformInventoryQuery.ps1` | Acquires an app-only token and runs a KQL query against `PowerPlatformResources` via Azure Resource Graph |
+| `Resolve-CanvasAppType.ps1` | Downloads one canvas app's `.msapp` via pac CLI and checks for the `SharePointIntegration` control |
+| `Invoke-CanvasAppTypeScan.ps1` | Orchestrator: pulls all canvas apps from inventory, then resolves each one via `Resolve-CanvasAppType.ps1` |

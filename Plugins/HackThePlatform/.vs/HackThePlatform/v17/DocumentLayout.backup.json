@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\_dev\\power-platform-stuff\\Plugins\\HackThePlatform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AF0717C-16E0-49ED-92D2-F7CB7656CAD8}|Plugins\\Plugins.csproj|c:\\_dev\\power-platform-stuff\\plugins\\hacktheplatform\\plugins\\createblobfolderrestplugin .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AF0717C-16E0-49ED-92D2-F7CB7656CAD8}|Plugins\\Plugins.csproj|solutionrelative:plugins\\createblobfolderrestplugin .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AF0717C-16E0-49ED-92D2-F7CB7656CAD8}|Plugins\\Plugins.csproj|c:\\_dev\\power-platform-stuff\\plugins\\hacktheplatform\\plugins\\blockbotcreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF0717C-16E0-49ED-92D2-F7CB7656CAD8}|Plugins\\Plugins.csproj|solutionrelative:plugins\\blockbotcreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CreateBlobFolderRestPlugin .cs",
-              "DocumentMoniker": "C:\\_dev\\power-platform-stuff\\Plugins\\HackThePlatform\\Plugins\\CreateBlobFolderRestPlugin .cs",
-              "RelativeDocumentMoniker": "Plugins\\CreateBlobFolderRestPlugin .cs",
-              "ToolTip": "C:\\_dev\\power-platform-stuff\\Plugins\\HackThePlatform\\Plugins\\CreateBlobFolderRestPlugin .cs",
-              "RelativeToolTip": "Plugins\\CreateBlobFolderRestPlugin .cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAYwFoAAAAWAAAAAAAAAA==",
+              "Title": "BlockBotCreation.cs",
+              "DocumentMoniker": "C:\\_dev\\power-platform-stuff\\Plugins\\HackThePlatform\\Plugins\\BlockBotCreation.cs",
+              "RelativeDocumentMoniker": "Plugins\\BlockBotCreation.cs",
+              "ToolTip": "C:\\_dev\\power-platform-stuff\\Plugins\\HackThePlatform\\Plugins\\BlockBotCreation.cs*",
+              "RelativeToolTip": "Plugins\\BlockBotCreation.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T22:56:53.113Z",
+              "WhenOpened": "2025-12-04T20:52:43.95Z",
               "EditorCaption": ""
             }
           ]
