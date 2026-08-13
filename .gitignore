@@ -105,6 +105,8 @@ artifacts/
 # Power Platform specific
 *.msapp
 *.zip
+# Shipped solution packages that readers are meant to download
+!Plugins/*.zip
 temp/
 *.tmp
 
