@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\_dev\\power-platform-stuff\\Plugins\\HackThePlatform\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4AF0717C-16E0-49ED-92D2-F7CB7656CAD8}|Plugins\\Plugins.csproj|c:\\_dev\\power-platform-stuff\\plugins\\hacktheplatform\\plugins\\blockcopilotharnessagents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF0717C-16E0-49ED-92D2-F7CB7656CAD8}|Plugins\\Plugins.csproj|solutionrelative:plugins\\blockcopilotharnessagents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4AF0717C-16E0-49ED-92D2-F7CB7656CAD8}|Plugins\\Plugins.csproj|c:\\_dev\\power-platform-stuff\\plugins\\hacktheplatform\\plugins\\blockbotcreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AF0717C-16E0-49ED-92D2-F7CB7656CAD8}|Plugins\\Plugins.csproj|solutionrelative:plugins\\blockbotcreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BlockCopilotHarnessAgents.cs",
+              "DocumentMoniker": "C:\\_dev\\power-platform-stuff\\Plugins\\HackThePlatform\\Plugins\\BlockCopilotHarnessAgents.cs",
+              "RelativeDocumentMoniker": "Plugins\\BlockCopilotHarnessAgents.cs",
+              "ToolTip": "C:\\_dev\\power-platform-stuff\\Plugins\\HackThePlatform\\Plugins\\BlockCopilotHarnessAgents.cs",
+              "RelativeToolTip": "Plugins\\BlockCopilotHarnessAgents.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T13:51:14.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "BlockBotCreation.cs",
               "DocumentMoniker": "C:\\_dev\\power-platform-stuff\\Plugins\\HackThePlatform\\Plugins\\BlockBotCreation.cs",
               "RelativeDocumentMoniker": "Plugins\\BlockBotCreation.cs",

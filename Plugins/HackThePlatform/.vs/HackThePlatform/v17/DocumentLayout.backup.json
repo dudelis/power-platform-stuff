@@ -14,16 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "BlockBotCreation.cs",
               "DocumentMoniker": "C:\\_dev\\power-platform-stuff\\Plugins\\HackThePlatform\\Plugins\\BlockBotCreation.cs",
               "RelativeDocumentMoniker": "Plugins\\BlockBotCreation.cs",
-              "ToolTip": "C:\\_dev\\power-platform-stuff\\Plugins\\HackThePlatform\\Plugins\\BlockBotCreation.cs*",
-              "RelativeToolTip": "Plugins\\BlockBotCreation.cs*",
+              "ToolTip": "C:\\_dev\\power-platform-stuff\\Plugins\\HackThePlatform\\Plugins\\BlockBotCreation.cs",
+              "RelativeToolTip": "Plugins\\BlockBotCreation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T20:52:43.95Z",

@@ -75,6 +75,30 @@ Note: there's no dedicated resource type for SharePoint list form customizations
 (`microsoft.powerapps/canvasapps`) under the hood and aren't distinguishable from any other canvas app via the
 inventory schema.
 
+## Finding GitHub Copilot harness agents
+
+Copilot Studio agents created through the GitHub Copilot harness ("CLI agents") carry
+`properties.isCLIAgent == true` on the `microsoft.copilotstudio/agents` resource type — this is the field
+[Microsoft's inventory schema reference](https://learn.microsoft.com/power-platform/admin/inventory-schema)
+documents as "Whether the agent was created through the GitHub Copilot harness" (see also the [sample "Count
+agents by harness" query](https://learn.microsoft.com/power-platform/admin/inventory-sample-queries#count-agents-by-harness)
+and [this write-up](https://www.russrimmerman.com/blog/find-github-copilot-harness-agents-resource-graph/)).
+
+[`Find-GitHubCopilotHarnessAgents.ps1`](./Find-GitHubCopilotHarnessAgents.ps1) wraps
+`Invoke-PowerPlatformInventoryQuery.ps1` with this filter:
+
+```powershell
+# list every GitHub Copilot harness agent in the tenant
+.\Find-GitHubCopilotHarnessAgents.ps1 -TenantId '<tenant-id>' -ClientId '<client-id>'
+
+# scope to one environment, and export to CSV
+.\Find-GitHubCopilotHarnessAgents.ps1 -TenantId '<tenant-id>' -ClientId '<client-id>' `
+    -EnvironmentId '<environment-id>' -OutputCsvPath .\github-copilot-agents.csv
+
+# instead, summarize all Copilot Studio agents by harness (GitHub Copilot / Copilot Chat / Standard)
+.\Find-GitHubCopilotHarnessAgents.ps1 -TenantId '<tenant-id>' -ClientId '<client-id>' -CountByHarness
+```
+
 ### If it fails
 
 - **401** — token acquisition problem (bad tenant/client id, bad secret, secret expired). Not related to the
@@ -125,5 +149,6 @@ not to work — use `Remove-DirectoryRole.ps1` if you need to revoke an elevated
 | `Assign-DirectoryRole.ps1` | Assigns an Entra directory role (default: Global Reader) to a service principal at tenant scope |
 | `Remove-DirectoryRole.ps1` | Removes a previously assigned Entra directory role from a service principal |
 | `Invoke-PowerPlatformInventoryQuery.ps1` | Acquires an app-only token and runs a KQL query against `PowerPlatformResources` via Azure Resource Graph |
+| `Find-GitHubCopilotHarnessAgents.ps1` | Lists (or counts by harness) Copilot Studio agents built with the GitHub Copilot harness, via `properties.isCLIAgent` |
 | `Resolve-CanvasAppType.ps1` | Downloads one canvas app's `.msapp` via pac CLI and checks for the `SharePointIntegration` control |
 | `Invoke-CanvasAppTypeScan.ps1` | Orchestrator: pulls all canvas apps from inventory, then resolves each one via `Resolve-CanvasAppType.ps1` |
